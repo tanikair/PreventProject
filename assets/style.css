@@ -115,6 +115,19 @@
     margin-right: 10px;
 }
 
+/* mystory styling */
+body {
+    margin: auto;
+    background-color: rgb(41, 38, 38);
+}
+#casestudy1 {
+    text-align: center;
+    color: #fff;
+}
+#casestudy2 {
+    text-align: center;
+    color: #fff;
+}
 
 
 /* Footer Styling */
