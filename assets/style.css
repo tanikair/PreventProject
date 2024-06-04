@@ -1,0 +1,143 @@
+/* container styling */
+
+.container-wrapper {
+    background-color: rgba(0, 0, 0, .5);
+    color: black;
+}
+
+.alert-container {}
+
+.callout-container {
+    color: #fff;
+    height: 100vh;
+    background: url(../assets/images/param-featured-radicalisation.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quotes-container {
+    padding: 20px;
+
+}
+
+.features-container {
+    padding: 20px;
+
+}
+
+/* page heading */
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+.page-header h2 {
+    margin-top: 0;
+    }
+
+    /* Content container */
+    .content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    }
+
+/*-------jumbotron-----*/
+
+.jumbotron {
+    background-color: transparent !important;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 30px;
+    color: white;
+    border: none;
+}
+
+.jumbotron .lead {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 100%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/* Navbar Styling */
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-item {
+    flex: 1;
+    /* Make each nav item take equal space */
+}
+
+.nav-item .nav-link {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 5px;
+    text-align: center;
+    color: black;
+    background-color: lightgrey;
+}
+
+.nav-item .nav-link:hover {
+    text-decoration: underline;
+}
+
+.label-button-spacing {
+    margin-left: 0px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+
+
+/* Footer Styling */
+
+
+/*--------------------------------different devices---------------*/
+/* Adjust header layout for mobile */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+}
+
+/* Adjust main content layout for mobile */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+}
+
+/* Adjust footer layout for mobile */
+@media (max-width: 768px) {
+    footer {
+        padding: 10px;
+    }
+}
