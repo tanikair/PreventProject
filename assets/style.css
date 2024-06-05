@@ -135,10 +135,9 @@ main {
     background-color: rgb(41, 38, 38);
     display: block;
 }
-/* makes the youtube video responsive to the page layout */
-.casestudy-video {
-    max-width: min-content;
-    height: 100%;
+/* makes the youtube video the original size when embedded */
+#casestudy-video {
+    max-width: initial;
 }
 /* styling for first case study heading div */
 #casestudy1 {
@@ -174,7 +173,7 @@ main {
     header {
         padding: 10px;
     }
-    
+
 }
 
 /* Adjust main content layout for mobile */
@@ -194,11 +193,7 @@ main {
 
 /* Media Queries for my story page */
 /* for screens 1200px wide and above (desktop) */
-@media screen and (min-width: 768px) {
-    .casestudy-video {
-        min-width: auto;
-    
-    }
+@media screen and (min-width: 1200px) {
 
 }
 
@@ -207,7 +202,16 @@ main {
     #casestudy-title {
         font-size: 1.8rem;
     }
-    .casestudy-video {
-        margin: auto;
+    iframe {
+        max-width: 400px;
+        max-height: 200px;
+    }
+}
+
+/* for screens that are 520px wide or less (mobile) */
+@media screen and (max-width: 520px) {
+    iframe {
+        max-width: 250px;
+        max-height: 130px;
     }
 }
