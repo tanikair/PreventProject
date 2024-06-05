@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 /* container styling */
 
 .container-wrapper {
@@ -19,6 +21,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -57,6 +60,16 @@
     padding-bottom: 75px;
     }
 
+
+    /*-------------------footer------------*/
+    .inline-block {
+        display: inlline-block;
+    }
+    .general-sub {
+        color: black;
+
+    }
+    
 /*-------jumbotron-----*/
 
 .jumbotron {
