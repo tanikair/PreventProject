@@ -194,7 +194,7 @@ main {
 
 /* Footer Styling */
 .footer  {
-    margin-top: 16px;
+    margin-top: 5px;
 }
 
 /*--------------------------------different devices---------------*/
@@ -217,8 +217,4 @@ main {
     footer {
         padding: 10px;
     }
-}
-
-.p-4 {
-    padding: 0.5rem !important;
 }
