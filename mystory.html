@@ -17,8 +17,9 @@
 
 <body>
     <!--Nav-->
-    <nav class="navbar navbar-light navbar-expand-md bg-light fixed-top">
-        <a href="/" class="navbar-brand"><strong>Prevent</strong></a>
+
+    <nav class="navbar navbar-light navbar-expand-lg bg-light">
+    <a href="/" class="navbar-brand">Prevent</a>
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,10 +81,11 @@
                     <div class="col-12">
                         <!-- jumbotron for Youtube embbedded link case study example, i wanted there to be an opening image or video for visual interest. -->
                         <section class="callout jumbotron text-center">
-                            <h1 class="jumbotron-header">Has Prevent Intervention ever stopped a young person from being radicalised?</h1>
+                            <h1 class="jumbotron-header" id="casestudy-title">Has Prevent Intervention ever stopped a young person from being radicalised?</h1>
                             <p class="lead">Watch this video to find out how a teenager in the UK was saved from radicalisation.</p>
-                            <div>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/udRpKAlu-Q8?si=7nySNyuHowBXuQ91" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <!-- classes for video centering -->
+                            <div id="casestudy-video">
+                                <iframe class="casestudy-video" class="casestudyvideo" width="560" height="315" src="https://www.youtube.com/embed/udRpKAlu-Q8?si=45u457xJF5N2uVvW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                         </section>
                     </div>
@@ -91,9 +93,9 @@
         </div>    
                      
         
-<main>
-<!-- case study 1 section -->
-    <article class="casestudy">
+<main class="main-container">
+<!--case study 1 section-->
+    <article class="container-fluid casestudy1">
         <div id="casestudy1">
             <h2>Case Study 1: Abdu's Story</h2>
         </div>
@@ -115,7 +117,7 @@
         </div>
     </article>
     
-    <article class="casestudy">
+    <article class="container-fluid casestudy2">
         <div id="casestudy2">
             <h2>Case Study 2: Brian's Story</h2>
         </div>
@@ -138,7 +140,7 @@
     </article>
       
     <!-- Section for i need immediate help! -->
-    <section class="immediatehelp">
+    <section class="container-fluid immediatehelp">
         <div>
             <div><hr></div>
             <div class="container bg-dark p-3 my-3 text-white">
