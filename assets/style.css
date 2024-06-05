@@ -134,6 +134,10 @@ main {
     margin: 0;
     background-color: rgb(41, 38, 38);
 }
+.main-container {
+    
+}
+
 /* styling for first case study heading div */
 #casestudy1 {
     text-align: center;
@@ -162,11 +166,6 @@ main {
 }
 
 
-/* Footer Styling */
-.footer  {
-    margin-top: 16px;
-}
-
 /*--------------------------------different devices---------------*/
 /* Adjust header layout for mobile */
 @media (max-width: 768px) {
@@ -176,7 +175,7 @@ main {
 }
 
 /* Adjust main content layout for mobile */
-@media (max-width: 768px) {
+@media  (max-width: 768px) {
     main {
         padding: 10px;
     }
@@ -186,5 +185,23 @@ main {
 @media (max-width: 768px) {
     footer {
         padding: 10px;
+    }
+}
+
+
+/* Media Queries for my story page */
+/* for screens 1200px wide and above (desktop) */
+@media screen and (min-width: 1200px) {
+    
+
+}
+
+/* for screens that are 768px wide or less (tablet+mobile) */
+@media screen and (max-width: 768px) { 
+    #casestudy-title {
+        font-size: 1.8rem;
+    }
+    .casestudy-video {
+        margin: auto;
     }
 }
