@@ -134,10 +134,13 @@ main {
     margin: 0;
     background-color: rgb(41, 38, 38);
 }
-.main-container {
+/* makes the youtube video responsive to the page layout */
+.casestudy-video {
+    max-width: min-content;
+    height: 100%;
+
     
 }
-
 /* styling for first case study heading div */
 #casestudy1 {
     text-align: center;
@@ -191,8 +194,11 @@ main {
 
 /* Media Queries for my story page */
 /* for screens 1200px wide and above (desktop) */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
+    .casestudy-video {
+        min-width: auto;
     
+    }
 
 }
 
