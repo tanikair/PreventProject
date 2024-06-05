@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+section {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 /* container styling */
 
 .container-wrapper {
@@ -64,7 +69,7 @@
 
     /*-------------------footer------------*/
     .inline-block {
-        display: inlline-block;
+        display: inline-block;
     }
     .general-sub {
         color: black;
@@ -127,6 +132,30 @@
     margin-left: 0px;
     text-align: left;
     margin-right: 10px;
+}
+
+
+#circle-cover-bg {
+    background: url(../assets/images/large.webp) no-repeat center center;
+    background-size: cover;
+
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /*---makes the picture a circle----*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+
+}
+
+
+#programme-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 /* mystory styling */
