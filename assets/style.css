@@ -136,13 +136,17 @@ main {
     font-size: 2.5rem;
 }
 /* style for immediate help section */
-#immediate.help {
+.immediatehelp div > h2 {
     text-align: center;
     padding: 20px;
-    color: #a30e0e;
+    color: #e01f1f;
     font-size: 3rem;
 }
-
+.immediatehelp div > p {
+   font-size: larger;
+   padding: 20px;
+   text-align: left;
+}
 
 /* Footer Styling */
 
