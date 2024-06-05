@@ -158,6 +158,13 @@ section {
 
 }
 
+.programmes-background {
+    color: white;
+    background: url(../assets/images/param-featured-radicalisation.jpg) repeat bottom right fixed;
+
+}
+
+
 /* mystory styling */
 /* styling for the main body of the mystory page */
 main {
