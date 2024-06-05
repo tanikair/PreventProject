@@ -118,7 +118,7 @@
 /* mystory styling */
 /* styling for the main body of the mystory page */
 main {
-    margin: auto;
+    margin: 0;
     background-color: rgb(41, 38, 38);
 }
 /* styling for first case study heading div */
@@ -139,17 +139,20 @@ main {
 .immediatehelp div > h2 {
     text-align: center;
     padding: 20px;
-    color: #e01f1f;
+    color: #db1717;
     font-size: 3rem;
 }
 .immediatehelp div > p {
-   font-size: larger;
-   padding: 20px;
-   text-align: left;
+    font-size: larger;
+    text-align: left;
+    padding: 20px;
 }
 
-/* Footer Styling */
 
+/* Footer Styling */
+.footer  {
+    margin-top: 16px;
+}
 
 /*--------------------------------different devices---------------*/
 /* Adjust header layout for mobile */
