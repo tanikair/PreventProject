@@ -133,13 +133,12 @@
 main {
     margin: 0;
     background-color: rgb(41, 38, 38);
+    display: block;
 }
 /* makes the youtube video responsive to the page layout */
 .casestudy-video {
     max-width: min-content;
     height: 100%;
-
-    
 }
 /* styling for first case study heading div */
 #casestudy1 {
@@ -175,6 +174,7 @@ main {
     header {
         padding: 10px;
     }
+    
 }
 
 /* Adjust main content layout for mobile */
