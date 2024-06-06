@@ -4,44 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/497e577645.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!-- CSS file -->
     <link rel="stylesheet" href="assets/style.css">
+    <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="48x48" href="../assets/images/red_hand_favicon.jpg">
+    <!-- Meta tags, kewywords, author for SEO -->
     <meta name="description" content="The aim of Prevent is to stop people from becoming terrorists or supporting terrorism.">
     <meta name="keywords" content="Prevent, radicalisation, terrorism">
     <meta name="author" content="ShakaHacka">
+    <!-- Topic and Site Title -->
     <title>Prevent</title>
 </head>
 
 <body>
     <!--Nav-->
-    <nav class="navbar navbar-light navbar-expand-md bg-light fixed-top">
-        <a href="/" class="navbar-brand"><strong>Prevent</strong>
+    <!-- Nav bar styles with responsive expansion and fixed positioning as well as colours -->
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top">
+        <!-- Sends user back to home page when clicked -->
+        <a href="/index.html" class="navbar-brand"><strong>Prevent</strong>
         </a>
-
+        <!-- Toggle navigation for smaller devices -->
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Toggle burger icon -->
             <span class="navbar-toggler-icon"></span></button>
-
+        
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
+            <!-- Site pages linked in nav bar -->
             <ul class="navbar-nav w-100 d-flex justify-content-between">
-
+                <!-- Home page -->
                 <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                <!-- Programmes page -->
                 <li class="nav-item mr-2"><a class="nav-link" href="programmes.html">Programmes</a></li>
+                <!-- Counter Narrative page leading straight to downloadable document in seperate tab -->
                 <li class="nav-item mr-2"><a class="nav-link"
                         href="assets/Radicalisation-the-counter-narrative-and-identifying-the-tipping-point-government-response-Eighth-Report-26-17-Cm-9555.pdf"
                         target="_blank">Counter
                         Narrative</a></li>
+                <!-- Get involved page -->
                 <li class="nav-item mr-2"><a class="nav-link" href="getinvolved.html">Get Involved</a></li>
+                <!-- My story page -->
                 <li class="nav-item mr-2"><a class="nav-link" href="mystory.html">My Story</a></li>
+                <!-- Gallery page -->
                 <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
-
-                <label for="signup-button" class="label-button-spacing">Sign up for the Prevent
+                <!-- Sign up button and label -->
+            <label for="signup-button" class="label-button-spacing">Sign up for the Prevent
                     newsletter</label>
-                <a href="#" id="signup-button" class="btn btn-secondary" data-toggle="modal"
+            <a href="#" id="signup-button" class="btn btn-secondary" data-toggle="modal"
                     data-target="#signupModal">Sign Up</a>
+            </ul>
         </div>
 
         <!-- Sign Up Modal -->
@@ -55,6 +70,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
+                        <!-- Sign up form inside modal popup -->
                         <form>
                             <div class="form-group">
                                 <label for="first-name">First Name</label>
@@ -71,7 +87,9 @@
                                     </div>
 
                                 </div>
+                                <!-- Submit button -->
                                 <button type="submit" class="btn btn-secondary">Sign Up</button>
+                            </div>
                         </form>
                     </div>
                     <div class="modal-footer">
@@ -79,27 +97,29 @@
                     </div>
                     </ul>
     </nav>
-
+    <!-- Background image in entrance of home page -->
     <div class="container-fluid callout-container">
         <div class="opaque-overlay">&nbsp;</div>
         <div class="row">
             <div class="col-12">
-
+                <!-- Callout style introduction to page with title and brief text -->
                 <section class="callout jumbotron text-center">
                     <h1 class="jumbotron-header">Prevent</h1>
                     <p class="lead">The aim of prevent is to stop people from becoming terrorists or supporting
                         terrorism.
                         The objectives of Prevent are to tackle the ideological causes of terrorism.
                         Intervene early to support people susceptible to radicalisation.</p>
-
+                    <!-- immediate assistance drop down button section -->
                     <div class="form-group">
                         <label for="immediate-assistance-button">I require immediate assistance</label>
+                        <!-- button is added with boostrap -->
                         <button type="button" class="btn btn-danger" id="immediate-assistance-button">Help</button>
                     </div>
                     <div class="form-group" id="text-field-group" style="display: none;">
                         <p>If you do not work for a sector that falls under the Prevent duty, but you have a
                             concern
-                            about an individual that you would like to share, please contact your local council
+                            <!-- embedded link in local council -->
+                            about an individual that you would like to share, please contact your <a href="https://www.gov.uk/guidance/making-a-referral-to-prevent">local council</a>
                             or
                             call the national police Prevent advice line on 0800 011 3764.
                             If you're deaf, hard of hearing or have a speech impairment, a police non-emergency
@@ -112,9 +132,10 @@
 
     <hr>
 
-
+    <!-- Main content of home page -->
     <div class="container-wrapper">
         <div class="container quotes-container content-container">
+            <!-- quotes section -->
             <section class="quotes">
                 <div class="row">
                     <div class="col-12 page-header">
@@ -182,6 +203,7 @@
                         <h3><i class="fa-solid fa-book-open d-none d-sm-inline"> John's story</i></h3
                         <p>John was often in trouble at school for low level disruption and felt he was being left behind. When a friend told him he was going to a right wing group meeting, John went along to support him. He was soon invited to join closed Facebook groups and started sharing extreme right wing posts on social media and attending rallies. After inviting a teacher along to an extremist rally he was referred to the Prevent programme by his college. He was appointed a specialist mentor (also known as an Intervention Provider) who helped increase John’s self-confidence and he realised he wanted to make some changes in his life. With this help and support he was able to move away from extremism. 
                         </p>
+                        <!-- Link to my story page -->
                         <p><a class="btn btn-sm btn-light" href="mystory.html">For more stories...</a></p>
                     </div>
                 </div>
@@ -190,6 +212,7 @@
                         <h3><i class="fa-solid fa-book-open d-none d-sm-inline"> Michael's story</i></h3>
                         <p>Micheal’s brother Thomas was a normal teenager who enjoyed going to the pub and worked as an electrician. He became interested in Islam at the age of 19 and gradually started to change. He insisted on using his own pans to cook and becoming angry at his mother or brother for watching TV and listening to music. He changed his name and his appearance and lost his apprenticeship after repeatedly expressing extremist views at work. He travelled abroad telling his mother he was going to study Arabic, but the following year called to say he had joined a terrorist group. Shortly after, he was killed which devastated his mother and brother.
                         </p>
+                        <!-- Link to my story page -->
                         <p><a class="btn btn-sm btn-light" href="mystory.html">For more stories...</a></p>
                     </div>
                 </div>
@@ -198,6 +221,7 @@
                         <h3><i class="fa-solid fa-book-open d-none d-sm-inline"> Mustafa's story</i></h3>
                         <p>Mustafa was a follower of multiple radical clerics and expressed and promoted extreme views. He is now a spoken word artist working within the non-governmental organisation sector as a trainer, facilitator and creator of counter-extremism expertise.
                         </p>
+                        <!-- Link to my story page -->
                         <p><a class="btn btn-sm btn-light" href="mystory.html">For more stories...</a></p>
 
                     </div>
@@ -211,85 +235,92 @@
     </article>
 
     <!-- Footer -->
-    <footer class=" text-center" style="background-color:#cccccc;">
-        <div class="container p-4">
-            <section class="mb-4">
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="https://www.youtube.com/watch?v=Otc2eaRY32s&t=25s&pp=ygUccHJldmVudCByYWRpY2FsaXNhdGlvbiB2aWRlbw%3D%3D" role="button"><i class="fab fa-youtube"></i></a>
-            </section>
-            <section class="">
-                <form action="">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-auto">
-                            <p class="pt-2">
-                                <strong>Sign up for our newsletter</strong>
-                            </p>
-                        </div>
-                        <div class="col-md-5 col-12">
-                            <div class="form-outline mb-4">
-                                <input type="email" id="form5Example2" lass="form-control" />
-                                <label class="form-label" for="form5Example2">Email address</label>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <button type="submit" class="btn btn-primary mb-4">
-                                Subscribe
-                            </button>
+    <footer class="text-center" style="background-color:#cccccc;">
+
+    <div class="container p-4">
+
+        <!-- Social Media contact links -->
+        <section class="mb-4">
+            <!-- Facebook styled link in footer -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="https://en-gb.facebook.com/" target="_blank" role="button"><i class="fab fa-facebook-f"></i></a>
+            <!-- Twitter styled link in footer -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="https://x.com/?lang=en" target="_blank" role="button"><i class="fab fa-twitter"></i></a>
+            <!-- Instagram styled link in footer -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="https://www.instagram.com/" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
+            <!-- Youtube styled link in footer -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="https://www.youtube.com/watch?v=Otc2eaRY32s&t=25s&pp=ygUccHJldmVudCByYWRpY2FsaXNhdGlvbiB2aWRlbw%3D%3D" target="_blank" role="button"><i class="fab fa-youtube"></i></a>
+        </section>
+<!-- signup section of footer with a form for easy access on any page. -->
+        <section class="">
+            <form action="">
+                <!-- bootstrap styles added to layout the footer features -->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-auto">
+                        <!-- Sign up form part of the footer -->
+                        <p class="pt-2">
+                            <strong>Sign up for our newsletter</strong>
+                        </p>
+                    </div>
+                    <div class="col-md-5 col-12">
+                        <div class="form-outline mb-4">
+                            <input type="email" id="form5Example2" lass="form-control" />
+                            <label class="form-label" for="form5Example2">Email address</label>
                         </div>
                     </div>
-                </form>
-            </section>
-            <section class="mb-4">
-                <p>
-                    If you would like to keep informed of all of our activities and latest advice in the combatting of radicalisation then please sign up to our newsletter for all of your information.
-                </p>
-            </section>
-        </div>
-    </footer>
+                    <!-- Signup submit button -->
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-4">Subscribe</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+<!-- signup section of the footer, adding another accessible option on every page to easily sign up for more information -->
+        <section class="mb-4">
+            <p>If you would like to keep informed of all of our activities and latest advice in the combatting of radicalisation then sign up to our newsletter for all of your information.</p>
+        </section>
+    </div>
+</footer>
 
-    <div class="modal" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Modal body text goes here.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+
+
+
+<!-- modal section for signup -->
+<div class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
-        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
-    <script>
-        document.getElementById('immediate-assistance-button').addEventListener('click', function () {
-            var textFieldGroup = document.getElementById('text-field-group');
-            if (textFieldGroup.style.display === 'none') {
+</div>
+    <!-- javascript links -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<!-- script for field entry -->
+<script>
+    document.getElementById('immediate-assistance-button').addEventListener('click', function () {
+        var textFieldGroup = document.getElementById('text-field-group');
+        if (textFieldGroup.style.display === 'none') {
                 textFieldGroup.style.display = 'block';
             } else {
                 textFieldGroup.style.display = 'none';
             }
         });
-    </script>
+</script>
+
 </body>
 
 </html>

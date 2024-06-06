@@ -17,7 +17,7 @@
 
 <body>
     <!--Nav bar area-->
-    <nav class="navbar navbar-light navbar-expand-md bg-light fixed-top">
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top">
         <a href="/" class="navbar-brand"><strong>Prevent</strong></a>
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
             <ul class="navbar-nav w-100 d-flex justify-content-between">
-                <!----navbar links-->
+
                 <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="programmes.html">Programmes</a></li>
                 <li class="nav-item mr-2"><a class="nav-link"
@@ -37,11 +37,13 @@
                 <li class="nav-item mr-2"><a class="nav-link" href="getinvolved.html">Get Involved</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="mystory.html">My Story</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                <!----button for modal, script below as well for this function-->
+
                 <label for="signup-button" class="label-button-spacing">Sign up for the Prevent
                     newsletter</label>
                 <a href="#" id="signup-button" class="btn btn-secondary" data-toggle="modal"
                     data-target="#signupModal">Sign Up</a>
+        </div>
+
 
                 <!-- Sign Up Modal -->
                 <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel"
@@ -79,6 +81,7 @@
                                             data-dismiss="modal">Close</button>
 
             </ul>
+                                              
     </nav>
 
     <!----programme section----->
@@ -290,32 +293,34 @@
     </div>                                        
             
     <!-- Footer -->
-    <footer class="text-center" style="background-color:#cccccc;">
-        <div class="container p-4">
-            <section class="mb-4">
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
-                <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="https://www.youtube.com/watch?v=Otc2eaRY32s&t=25s&pp=ygUccHJldmVudCByYWRpY2FsaXNhdGlvbiB2aWRlbw%3D%3D" role="button"><i class="fab fa-youtube"></i></a>
-            </section>
-            <section class="">
-                <form action="">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-auto">
-                            <p class="pt-2">
-                                <strong>Sign up for our newsletter</strong>
-                            </p>
-                        </div>
-                        <div class="col-md-5 col-12">
-                            <div class="form-outline mb-4">
-                                <input type="email" id="form5Example2" lass="form-control" />
-                                <label class="form-label" for="form5Example2">Email address</label>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <button type="submit" class="btn btn-primary mb-4">
-                                Subscribe
-                            </button>
+<footer class="text-center" style="background-color:#cccccc;">
+
+    <div class="container p-4">
+
+        <!-- Social Media contact links -->
+        <section class="mb-4">
+            <!-- Facebook styled link in footer -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="https://en-gb.facebook.com/" target="_blank" role="button"><i class="fab fa-facebook-f"></i></a>
+            <!-- Twitter styled link in footer -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="https://x.com/?lang=en" target="_blank" role="button"><i class="fab fa-twitter"></i></a>
+            <!-- Instagram styled link in footer -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="https://www.instagram.com/" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
+            <!-- Youtube styled link in footer -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="https://www.youtube.com/watch?v=Otc2eaRY32s&t=25s&pp=ygUccHJldmVudCByYWRpY2FsaXNhdGlvbiB2aWRlbw%3D%3D" target="_blank" role="button"><i class="fab fa-youtube"></i></a>
+        </section>
+<!-- signup section of footer with a form for easy access on any page. -->
+        <section class="">
+            <form action="">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-auto">
+                        <p class="pt-2">
+                            <strong>Sign up for our newsletter</strong>
+                        </p>
+                    </div>
+                    <div class="col-md-5 col-12">
+                        <div class="form-outline mb-4">
+                            <input type="email" id="form5Example2" lass="form-control" />
+                            <label class="form-label" for="form5Example2">Email address</label>
                         </div>
                     </div>
                 </form>
