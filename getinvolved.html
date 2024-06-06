@@ -17,33 +17,43 @@
 
 <body>
     <!--Nav-->
+    <!-- Nav bar styles with responsive expansion and fixed positioning as well as colours -->
     <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top">
-        <a href="/" class="navbar-brand"><strong>Prevent</strong></a>
-
+        <!-- Sends user back to home page when clicked -->
+        <a href="/index.html" class="navbar-brand"><strong>Prevent</strong></a>
+        <!-- Toggle navigation for smaller devices -->
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Toggle burger icon -->
             <span class="navbar-toggler-icon"></span></button>
-
+        
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
+            <!-- Site pages linked in nav bar -->
             <ul class="navbar-nav w-100 d-flex justify-content-between">
-
+                <!-- Home page -->
                 <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                <!-- Programmes page -->
                 <li class="nav-item mr-2"><a class="nav-link" href="programmes.html">Programmes</a></li>
+                <!-- Counter Narrative page leading straight to downloadable document in seperate tab -->
                 <li class="nav-item mr-2"><a class="nav-link"
                         href="assets/Radicalisation-the-counter-narrative-and-identifying-the-tipping-point-government-response-Eighth-Report-26-17-Cm-9555.pdf"
                         target="_blank">Counter
                         Narrative</a></li>
+                <!-- Get involved page -->
                 <li class="nav-item mr-2"><a class="nav-link" href="getinvolved.html">Get Involved</a></li>
+                <!-- My story page -->
                 <li class="nav-item mr-2"><a class="nav-link" href="mystory.html">My Story</a></li>
+                <!-- Gallery page -->
                 <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
-
-                <label for="signup-button" class="label-button-spacing">Sign up for the Prevent
+                <!-- Sign up button and label -->
+            <label for="signup-button" class="label-button-spacing">Sign up for the Prevent
                     newsletter</label>
-                <a href="#" id="signup-button" class="btn btn-secondary" data-toggle="modal"
+            <a href="#" id="signup-button" class="btn btn-secondary" data-toggle="modal"
                     data-target="#signupModal">Sign Up</a>
+            </ul>
         </div>
 
+    </nav>       
         <!-- Sign Up Modal -->
         <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -55,8 +65,16 @@
                         </button>
                     </div>
                     <div class="modal-body">
+                        <!-- Sign up form inside modal popup -->
                         <form>
                             <div class="form-group">
+                                <label for="first-name">First Name</label>
+                                <input type="text" class="form-control" id="first-name"
+                                    placeholder="Enter your first name">
+                                <div class="form-group">
+                                    <label for="Last">Last Name</label>
+                                    <input type="text" class="form-control" id="last"
+                                        placeholder="Enter your last name">
                                     <div class="form-group">
                                         <label for="email">Email address</label>
                                         <input type="email" class="form-control" id="email"
@@ -64,14 +82,17 @@
                                     </div>
 
                                 </div>
+                                <!-- Submit button -->
                                 <button type="submit" class="btn btn-secondary">Sign Up</button>
+                            </div>
                         </form>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </div>
-                    </ul>
-    </nav>
+                </div>
+            </div>        
+        </div>            
 
     <!-- copied in image styling from home page -->
         <div class="container-fluid callout-container">
